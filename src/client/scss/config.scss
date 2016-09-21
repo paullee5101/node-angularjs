@@ -1,0 +1,43 @@
+//Import fonts
+$fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.6.3/fonts" !default; 
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+@import "flatpickr.scss";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+
+@font-face{
+  font-family: "lobster";
+  src: url("/assets/fonts/Lobster_1.3.otf");
+}
+//Font variables
+$lato: 'lato', 'sans-serif';
+$raleway: 'raleway', 'sans-serif';
+$lobster: "lobster";
+
+
+//Color variables
+$anchor:#00BBB3;
+$anchor-dark:#00a59d;
+
+$anchor-alt:#52D4FB;
+$facebook:#3B5998;
+
+$gray-light-text:#acacac;
+
+$gray-normal:#efefef;
+$gray-light:#f1f1f1;
+$gray-medium-dark:#e2e2e2;
+$gray-dark:#888;
+$gray-border:#C8C8CA;
+$gray-border-light:#ddd;
+
+$red-anchor:#F95156;
+
+$orange:#FD6429;
+$blue-normal:#6594E8;
+
+$danger:#FF5D5D;
+
+//Import theme
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "theme.scss";
